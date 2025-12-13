@@ -1,0 +1,5 @@
+# Secret Keys
+.env
+
+# Virtual Env
+venv
