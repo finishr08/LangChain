@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nPlease analyze the cricket report or document titled \"{paper_input}\" with the following specifications:\nAnalysis Style: {style_input}  \nAnalysis Length: {length_input}  \n\n1. Statistical Breakdown:  \n   - Include relevant cricket statistics (e.g., runs, wickets, strike rate, economy, partnerships).  \n   - If applicable, explain calculations like run rate, strike rate, required run rate, or probability models in simple terms.  \n\n2. Cricketing Logic & Analogies:  \n   - Use relatable cricket analogies (e.g., comparing strategies to powerplay decisions, field placements, captaincy calls by PCB-level standards).  \n   - Simplify complex cricket strategies or performance analysis using intuitive examples.  \n\n3. Contextual Insights:  \n   - Mention team dynamics, PCB selection policies, player form, match conditions, or tactical choices \u2014 but only if they are present in the document.  \n\nIf certain information is not available in the document, respond with:  \n\"Insufficient information available\"  \ninstead of guessing.\n\nEnsure the analysis is clear, accurate, and aligned with the provided style and length.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
